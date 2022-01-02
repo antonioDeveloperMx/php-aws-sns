@@ -1,6 +1,9 @@
 # php-aws-sns
 Libreria para integración básica de mensajes mediante PHP y SNS
 
+## Instalacion
+composer require joalm-library/php-aws-sns
+
 ## Requerimientos
 <ul>
 <li>PHP</li>
