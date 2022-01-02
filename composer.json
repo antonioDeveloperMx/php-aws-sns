@@ -1,0 +1,20 @@
+{
+    "name": "joalm-library/php-aws-sns",
+    "description": "Libreria que implementa el servicio de sns de aws",
+    "type": "library",
+    "require": {
+        "aws/aws-sdk-php": "^3.208"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JoalmLibrary\\PhpAwsSns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Antonio Lopez Mora",
+            "email": "antoniolopez.developer@gmail.com"
+        }
+    ]
+}
