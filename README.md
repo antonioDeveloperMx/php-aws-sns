@@ -14,4 +14,4 @@ composer require joalm-library/php-aws-sns
 Nota: Probado en versioón 7.1 de PHP
 
 ## Uso
-SnsService::SendSms('+52', $phone, $message);
+PhpAwsSns::SendSms('+52', $phone, $message);
