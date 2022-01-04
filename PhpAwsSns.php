@@ -1,10 +1,10 @@
 <?php
 
-namespace  App\Http\Services;
+namespace  JoalmLibrary\PhpAwsSns;
 use Aws\Credentials\Credentials;
 use Aws\Sns\SnsClient;
 
-class SnsService
+class PhpAwsSns
 {
 
     public static function SendSms($country_code, $phone, $message){
